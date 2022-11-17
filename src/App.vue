@@ -23,10 +23,6 @@ const playSound = () => {
     soundBG.value.muted = true
   }
 }
-
-window.addEventListener("click", () => {
-  playSound()
-})
 </script>
  
 <template>
